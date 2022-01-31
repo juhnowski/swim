@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.wear.widget.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/box_inset_layout_padding"
+    tools:context=".MainActivity3"
+    tools:deviceIds="wear">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="#0C66AE"
+            android:onClick="exit"
+            android:text="Выход"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="187dp"
+            android:layout_height="wrap_content"
+            android:text="200 комплекс"
+            android:textAlignment="center"
+            android:textSize="34sp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#0C66AE"
+            android:onClick="sendMessage"
+            android:text="Выполнено"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+</androidx.wear.widget.BoxInsetLayout>
